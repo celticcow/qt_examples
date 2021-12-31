@@ -4,12 +4,15 @@ import sys
 import random
 from PySide6 import QtCore, QtWidgets, QtGui
 
+"""
+test play ground for qt dev
+"""
 
 class MyWidget(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
 
-        self.hello = ["hallo Welt", "Hei maa", "Hola Mundo"]
+        self.hello = ["hallo Welt", "Hei maa", "Hola Mundo", "this space left blank"]
         
         self.button = QtWidgets.QPushButton("Click Me")
         self.text = QtWidgets.QLabel("Hello World", alignment=QtCore.Qt.AlignCenter)
